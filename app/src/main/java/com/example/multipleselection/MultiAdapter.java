@@ -37,7 +37,6 @@ public class MultiAdapter extends RecyclerView.Adapter<MultiAdapter.MultiViewHol
     public void onBindViewHolder(@NonNull MultiViewHolder multiViewHolder, int position) {
         multiViewHolder.bind(employees.get(position));
     }
-
     @Override
     public int getItemCount() {
         return employees.size();
